@@ -1,0 +1,6 @@
+{
+  "name": "Widad",
+  "description": "Widad (مودة) - Premium Arab dating and serious relationship platform for meaningful love and a lasting future.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
