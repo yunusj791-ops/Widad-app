@@ -1,53 +1,20 @@
-# Widad (مودة) — Web Application
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## Meaningful Love. A Lasting Future. (حب ذو معنى. ومستقبل يدوم)
+# Run and deploy your AI Studio app
 
-This is the responsive web application for **Widad (مودة)**, a serious dating and marriage platform for Arab adults.
+This contains everything you need to run your app locally.
 
-### Features
-- **Responsive Web UI**: Optimized for mobile phones, tablets, laptops, and desktop widescreen displays.
-- **Bilingual & RTL**: One-tap switching between English (LTR) and Arabic (RTL) with complete native translations.
-- **Paystack Integration**: Direct link to the official Paystack payment checkout (`https://paystack.shop/pay/q0bp-vzftt`).
-- **Discovery & Matchmaking**: Intentional profile browsing, compatibility score engine, mutual match celebration modal.
-- **Messaging**: Direct private conversations between mutual matches.
-- **Safety Suite**: Fraud/scam warnings, block, unmatch, and user reporting.
-- **Founder & Admin Dashboard**: Live metrics, user suspension, moderation queue.
+View your app in AI Studio: https://ai.studio/apps/a34e5a70-921a-46ba-95f1-f7534fe5aae2
 
----
+## Run Locally
 
-### Local Development
+**Prerequisites:**  Node.js
 
-```bash
-cd web
-npm install
-npm run dev
-```
 
-The web app runs locally at `http://localhost:3000`.
-
----
-
-### 1-Click Public Web Deployment
-
-You can deploy this folder directly to any modern web hosting service for free:
-
-#### 1. Vercel
-```bash
-npm install -g vercel
-cd web
-vercel
-```
-
-#### 2. Netlify
-```bash
-npm install -g netlify-cli
-cd web
-npm run build
-netlify deploy --prod --dir=dist
-```
-
-#### 3. Firebase Hosting
-```bash
-npm run build
-firebase deploy --only hosting
-```
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
